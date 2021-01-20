@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_details",
+  "info": {
+    "name": "Brand Detail",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Mailing_Title": {
+      "type": "string"
+    },
+    "Html_Code": {
+      "type": "richtext"
+    },
+    "Html_Code_Alternative": {
+      "type": "json"
+    },
+    "Mailing_Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Mailing_Images_Path": {
+      "type": "text"
+    },
+    "brand_list": {
+      "via": "brand_details",
+      "model": "brand-list"
+    }
+  }
+}
