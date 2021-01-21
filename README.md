@@ -11,7 +11,7 @@ A quick description of your strapi application
 
 Strapi default 1337 portunda çalışıyor.
 
-ilk açılışta "http://localhost:1337/admin" diyerek kullanıcı oluşturulabilir.
+ilk açılışta "http://localhost:1337/admin" diyerek kullanıcı oluşturulabilir.(Direkt sayfaya yönlendiriyor, yönlendirmezse eğer bu linkten ulaşılabilir.)
 
 Projede iki collection types var. "Brand Lists" ve "Brand Details". Bu iki collection types'tan veri çekilirken GET methoduyla "http://localhost:1337/brand-lists" ve "http://localhost:1337/brand-details" 'e istek atılabilir.
 
