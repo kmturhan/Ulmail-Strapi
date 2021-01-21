@@ -4,7 +4,9 @@ A quick description of your strapi application
 
 # Kullanım 
 
-"npm run start strapi develop" terminal'de bunu kullanarak Strapi'yi development modunda geliştirme yapılabilecek modda çalıştırabiliriz.
+1- Clone'ladıktan sonra "npm run build" ile projeyi derlememiz gerekiyor.
+
+2- "npm run start strapi develop" terminal'de bunu kullanarak Strapi'yi development modunda geliştirme yapılabilecek modda çalıştırabiliriz.
 
 Strapi default 1337 portunda çalışıyor.
 
