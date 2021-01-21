@@ -3,8 +3,9 @@
 A quick description of your strapi application
 
 # Kullanım 
+1- Clone'ladıktan "npm install" ile paketleri kuruyoruz.
 
-1- Clone'ladıktan sonra "npm run build" ile projeyi derlememiz gerekiyor.
+2- "npm run build" ile projeyi derlememiz gerekiyor.
 
 2- "npm run start strapi develop" terminal'de bunu kullanarak Strapi'yi development modunda geliştirme yapılabilecek modda çalıştırabiliriz.
 
